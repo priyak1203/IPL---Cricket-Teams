@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="/teamdetails.css">
+    <title>IPL Cricket Teams </title>
+</head>
+<body>
+    <header id="top-bar">
+        <div id="logo-cover" >
+            <a id="ipl-logo" href="./index.html">
+                <img src="https://wallpapercave.com/wp/wp7104495.jpg" width="95px" >
+            </a>
+        </div>
+        
+        <div id="ipl-text">
+            <p>Indian Premier League</p>
+        </div>
+
+        <div id="btn-wrapper" >
+            <button id="btn-add-player">Add Player</button>
+        </div>
+    </header>
+    <main>
+        <section id="main-section">
+            <div id="team-details">
+           
+            </div>
+
+            <div id="player-grid">
+            </div>
+            
+            <div id="player-form-wrapper">
+                <form id="register-form"action="/">
+                    <h2 id="form-heading">Player Register Form</h2>
+                    <div id="input-wrapper">
+                        <input class="input-item" id="fullName" type="text" name="fullName" placeholder="Full Name">
+                        <input class="input-item" id="photoURL"type="text" name="photoURL" placeholder="Photo URL">
+                        <input class="input-item" id="key" type="text" name="key" placeholder="Team Initials">
+                        <input class="input-item" id="price" type="text" name="price" placeholder="Price in Cr">
+                        <input class="input-item" id="status"type="text" name="isPlaying" placeholder="Status">
+                        <input class="input-item" id="role" type="text" name="role" placeholder="Role">
+                    </div>
+                    <div id="btn-register-wrapper">
+                        <input id="btn-register" type="submit" value="Register">
+                    </div>
+                    
+
+
+                </form>
+            </div>
+
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy;Copyright IPL, All Rights Reserved.</p>
+    </footer>
+   
+   <script src="./teamdetails.js"></script> 
+</body>
+</html>
